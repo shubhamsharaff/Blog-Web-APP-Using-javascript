@@ -1,4 +1,7 @@
 Blog WEB app using plain javascript 
+## How to run this Project 
+- npm install 
+- npm start
 ## Technical Details 
 - Used Fetch for API Calls 
 - Html and plain CSS
