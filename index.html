@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog Web App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@300&family=Roboto+Mono:wght@200;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <h1 class="main-heading">Blog Web App</h1>
+    <div id="create-blog-form">
+        <h2>Add New Blog</h2>
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" required />
+        </div>
+        <div class="form-group">
+            <label for="body">Body:</label>
+            <textarea id="body" required></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="createBlog()">Create Blog</button>
+    </div>
+    <div id="blogs-container">
+        <ul id="blog-list">
+            <!--  -->
+        </ul>
+    </div>
+</body>
+
+</html>
